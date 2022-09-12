@@ -1,0 +1,21 @@
+
+g
+java:S1124("EReorder the modifiers to comply with the Java Language Specification.(•†Ğ³ıÿÿÿÿ8ÌáÊÜ0
+c
+java:S16127"FReplace this lambda with method reference 'nodeInfo::isLegalIdentity'.(œ»¤õ8âáÊÜ0
+<
+java:S3751L"Make this method non "private".(Ğ§ÖÛ8òáÊÜ0
+<
+java:S3751W"Make this method non "private".(¸–½8ıáÊÜ0
+|
+java:S2142Ü"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(”ı¾8óø×Ü0
+Y	java:S125•"<This block of commented-out lines of code should be removed.(ÿŠ±Ì8›âÊÜ0
+^	java:S125Ÿ"<This block of commented-out lines of code should be removed.(§¸á§úÿÿÿÿ8°âÊÜ0
+J
+java:S11445"-Remove this unused private "isNotary" method.(úúÊ¡8ÅâÊÜ0
+K
+java:S1144;")Remove this unused private "isMe" method.(ÜÎÓöüÿÿÿÿ8ÆâÊÜ0
+S
+java:S1144?"1Remove this unused private "isNetworkMap" method.(Ÿèî»şÿÿÿÿ8ÆâÊÜ0
+s
+java:S1192j"QDefine a constant instead of duplicating this literal "Transaction id: " 8 times.(•Âëòüÿÿÿÿ8ÈâÊÜ0

@@ -1,0 +1,44 @@
+apply plugin: 'net.corda.plugins.cordapp'
+apply plugin: 'net.corda.plugins.cordformation'
+
+cordapp {
+    targetPlatformVersion corda_platform_version
+    minimumPlatformVersion corda_platform_version
+    contract {
+        name "Template Contracts"
+        vendor "Corda Open Source"
+        licence "Apache License, Version 2.0"
+        versionId 1
+    }
+}
+
+sourceSets {
+    main{
+        java {
+            srcDir 'src/main/java'
+            java.outputDir = file('bin/main')
+        }
+    }
+    test{
+        java{
+            srcDir 'src/test/java'
+            java.outputDir = file('bin/test')
+        }
+    }
+}
+
+dependencies {
+    implementation 'org.projectlombok:lombok:1.18.20'
+    compileOnly 'org.projectlombok:lombok:1.18.24'
+    annotationProcessor 'org.projectlombok:lombok:1.18.24'
+
+    // Corda dependencies.
+    cordaCompile "$corda_core_release_group:corda-core:$corda_core_release_version"
+    cordaRuntime "$corda_release_group:corda:$corda_release_version"
+    testCompile "$corda_release_group:corda-node-driver:$corda_release_version"
+
+    //Account dependencies
+    cordaCompile "$confidential_id_release_group:ci-workflows:$confidential_id_release_version"
+    cordaCompile "$accounts_release_group:accounts-workflows:$accounts_release_version"
+    cordaCompile "$accounts_release_group:accounts-contracts:$accounts_release_version"
+}

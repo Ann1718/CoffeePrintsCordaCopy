@@ -1,0 +1,15 @@
+
+L
+java:S3740'"/Provide the parametrized type for this generic.(€È¶ç8‹İÊÜ0
+\
+java:S1118":Add a private constructor to hide the implicit public one.(ø‡—Áúÿÿÿÿ8İÊÜ0
+
+java:S1186["€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(‰¡Õ»8¬İÊÜ0
+]
+java:S1128";Remove this unused import 'com.template.dto.RoastedCoffee'.(â³ òıÿÿÿÿ8ï¼¼¬Ÿ0
+e
+java:S1128"CRemove this unused import 'com.template.states.FarmerDetailsState'.(°¯®¦ıÿÿÿÿ8ğ¼¼¬Ÿ0
+R
+java:S1128"0Remove this unused import 'java.time.LocalDate'.(›‘¬èıÿÿÿÿ8ğ¼¼¬Ÿ0
+i
+java:S2637="GParameter 1 to this call is marked "@NotNull" but null could be passed.(Ö«‡Ùûÿÿÿÿ8Ÿ¾¼¬Ÿ0
